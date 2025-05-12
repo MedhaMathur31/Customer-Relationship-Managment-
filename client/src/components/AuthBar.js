@@ -5,7 +5,7 @@ const AuthBar = ({ onLogin }) => {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/auth/me', { withCredentials: true })
+    axios.get('https://customer-relationship-managment.onrender.com/auth/me', { withCredentials: true })
       .then(res => {
         setUser(res.data.user);
         onLogin(res.data.user);
@@ -17,14 +17,14 @@ const AuthBar = ({ onLogin }) => {
   }, [onLogin]);
 
   const logout = () => {
-    axios.get('http://localhost:5000/auth/logout', { withCredentials: true })
+    axios.get('https://customer-relationship-managment.onrender.com/auth/logout', { withCredentials: true })
       .then(() => window.location.reload());
   };
 
   if (!user) {
     return (
       <div style={{ textAlign: 'center', marginTop: '3rem' }}>
-        <a href="http://localhost:5000/auth/google">
+        <a href="https://customer-relationship-managment.onrender.com/auth/google">
           <button style={{
             backgroundColor: '#4285F4',
             color: 'white',

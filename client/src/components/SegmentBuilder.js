@@ -24,7 +24,7 @@ const SegmentBuilder = () => {
 
   const previewAudience = async () => {
     try {
-      const res = await axios.post('http://localhost:5000/api/segments/preview', {
+      const res = await axios.post('https://customer-relationship-managment.onrender.com/api/segments/preview', {
         rules,
         logic
       });
@@ -37,7 +37,7 @@ const SegmentBuilder = () => {
 
   const saveSegment = async () => {
     try {
-      const res = await axios.post('http://localhost:5000/api/segments/save', {
+      const res = await axios.post('https://customer-relationship-managment.onrender.com/api/segments/save', {
         name: segmentName,
         rules,
         logic
@@ -51,7 +51,7 @@ const SegmentBuilder = () => {
 
   const generateAIMessages = async () => {
     try {
-      const res = await axios.post('http://localhost:5000/api/ai/messages', {
+      const res = await axios.post('https://customer-relationship-managment.onrender.com/api/ai/messages', {
         intent
       });
       setSuggestions(res.data.suggestions);

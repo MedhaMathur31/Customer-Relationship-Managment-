@@ -10,7 +10,7 @@ const CampaignHistory = () => {
   useEffect(() => {
     const fetchHistory = async () => {
       try {
-        const res = await axios.get('http://localhost:5000/api/segments/history');
+        const res = await axios.get('https://customer-relationship-managment.onrender.com/api/segments/history');
         setCampaigns(res.data);
       } catch (err) {
         console.error('Error fetching campaign history:', err);
