@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const CommunicationLog = require('../models/CommunicationLog');
+const CommunicationLog = require('../models/CommunicationLogs');
 
 // POST /delivery/receipt
 router.post('/receipt', async (req, res) => {
