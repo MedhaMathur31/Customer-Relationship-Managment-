@@ -1,0 +1,57 @@
+Logs
+logs
+.log
+npm-debug.log
+
+Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+Dependency directories
+node_modules/
+packages/*/node_modules/
+
+Production build output
+dist/
+build/
+
+Optional npm cache directory
+.npm
+
+dotenv environment variables
+.env
+.env.*.local
+
+Local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+Debug
+debug.log
+yarn-debug.log*
+yarn-error.log*
+
+IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+OS generated files
+.DS_Store
+Thumbs.db
+
+React specific
+*.env
+.env.local
+public/env.js
+
+Optional: Next.js or Vite (if used)
+.next/
+.out/
+.vite/
+
