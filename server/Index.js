@@ -9,7 +9,7 @@ const customerRoutes = require('./routes/customers');
 const orderRoutes = require('./routes/Orders');
 const segmentRoutes = require('./routes/segments');
 const aiRoutes = require('./routes/ai');
-const authRoutes = require('./auth');
+const authRoutes = require('./Auth');
 
 const deliveryRoutes = require('./routes/delivery');
 
