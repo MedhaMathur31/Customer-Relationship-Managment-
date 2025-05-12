@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Customer = require('../models/Customer');
 const Segment = require('../models/Segment');
-const CommunicationLog = require('../models/CommunicationLog');
+const CommunicationLog = require('../models/CommunicationLogs');
 
 // Helper to build MongoDB filters from rules
 function buildQuery(rules, logic) {
