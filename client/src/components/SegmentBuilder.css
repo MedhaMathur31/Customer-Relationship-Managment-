@@ -1,0 +1,168 @@
+/*.segment-builder {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .segment-builder h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .segment-builder input,
+  .segment-builder select,
+  .segment-builder button {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .segment-builder input,
+  .segment-builder select {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .segment-builder button {
+    margin-right: 0.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .segment-builder button:hover {
+    background-color: #0056b3;
+  }
+  
+  .rule-group {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  
+  .suggestions {
+    margin-top: 1rem;
+    background: #fff;
+    padding: 1rem;
+    border-left: 4px solid #007bff;
+  }
+  
+  .segment-builder {
+padding: 20px;
+background-color: #fdfdfd;
+border: 1px solid #ddd;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.05);
+margin-bottom: 30px;
+}
+
+.segment-builder h2 {
+margin-bottom: 15px;
+}
+
+.segment-builder input[type="text"],
+.segment-builder select {
+margin: 5px;
+padding: 6px;
+}
+
+button {
+margin: 8px 8px 8px 0;
+padding: 6px 12px;
+background-color: #1976d2;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #1565c0;
+}
+
+.audience-count {
+font-size: 1.4rem;
+font-weight: bold;
+color: #008060;
+margin-top: 10px;
+}
+
+.suggestions {
+margin-top: 15px;
+background-color: #f4f9ff;
+padding: 10px;
+border-radius: 6px;
+}
+*/
+
+
+.segment-builder {
+  padding: 20px;
+  background-color: #fdfdfd;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+  }
+  
+  .segment-builder h2 {
+  margin-bottom: 15px;
+  }
+  
+  .segment-builder input[type="text"],
+  .segment-builder select {
+  margin: 5px;
+  padding: 6px;
+  }
+  
+  button {
+  margin: 8px 8px 8px 0;
+  padding: 6px 12px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+  button:hover {
+  background-color: #1565c0;
+  }
+  
+  .audience-count {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #008060;
+  margin-top: 10px;
+  }
+  
+  .suggestions {
+  margin-top: 15px;
+  background-color: #f4f9ff;
+  padding: 10px;
+  border-radius: 6px;
+  }
+
+  .segment-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    }
+    
+    .segment-builder {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
