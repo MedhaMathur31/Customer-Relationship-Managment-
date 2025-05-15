@@ -107,9 +107,9 @@ npm start
 
 🌐 Deployed URLs
 
-Frontend (Vercel): https://your-vercel-url.vercel.app
+Frontend (Vercel): https://customer-relationship-managment.vercel.app/
 
-Backend (Render): https://your-backend-url.onrender.com
+Backend (Render): [https://your-backend-url.onrender.com](https://customer-relationship-managment.onrender.com)
 
 📬 API Endpoints
 
